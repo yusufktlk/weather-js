@@ -1,0 +1,47 @@
+*{margin:0; padding:0}
+
+body{
+    background-image: url(./img/New-York-night-view-skyscrapers-river-USA_1280x1024.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    color: orange;
+    text-shadow: 2px 2px black;
+    font-size: 25px;
+}
+.weather{
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    background: rgba(0,0,0,.4);
+    height: 100vh;
+    
+}
+.header input{
+    height: 30px;
+    width: 200px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    padding-right:10px;
+    border-bottom: 2px rgb(147, 96, 2) solid;
+}
+.city{
+    padding: 15px;
+    padding-top: 15px;
+    font-size: 45px;
+}
+.temp{
+    font-size: 90px;
+    padding: 5px;
+}
+.desc{
+    padding: 5px;
+    font-size: 25px;
+}
